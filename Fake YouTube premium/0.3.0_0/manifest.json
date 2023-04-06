@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "https://*.youtube.com/" ]
+   } ],
+   "description": "It changes the YouTube logo to Premium logo to fake having YouTube Premium",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncUEJ5zLT+lEQUqaGHXCeAibKLm/hyMW6lc/iTRu4K/5JcrUeuzyGEzMujEn+oBb5+fwua2yx9Q533XCjLp0xRmTST8OWr9HJyWK7imjynmX5scu2SU/OaZcYhlNKRa5stynFUVvp/JmpHEFZCrTv3kyZDpX1gWwQ6Xly2nwtg7D9UzXucn6j6u2mx9Zi6foTKhwQsBGcJjNC8BtFn4bHazDn/M6CMjJsIVyj1VUcY0HL6GCIeTYqIwjoe3x+AOZ9d0uIw6foaDA35M731ASgtXhDLNyzHdqc01f8K0N7uwdSo9SmGuOVB5wDrX7yxvkyyqummH0ot4i9dR94NPvPQIDAQAB",
+   "manifest_version": 3,
+   "name": "Fake YouTube premium",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.0"
+}
